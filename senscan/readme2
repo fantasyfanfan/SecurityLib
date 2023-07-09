@@ -1,1 +1,8 @@
-
+这是一个用于扫描网站js文件中是否包含敏感信息的简单脚本，通过正则表达式匹配是否包含ip和邮箱信息。使用方法如下：
+1. 需要安装selenium库：
+pip install selenium
+2. 需要下载浏览器插件，如Firefox插件：
+https://github.com/mozilla/geckodriver/releases
+3. 需要在脚本中设置浏览器和插件路径：
+firefox_path = 'C:\\Program Files\\Mozilla Firefox\\firefox.exe'  
+geckodriver_path = 'C:\\Program Files\\geckodriver.exe'
